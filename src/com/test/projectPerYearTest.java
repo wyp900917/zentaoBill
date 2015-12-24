@@ -11,7 +11,7 @@ public class projectPerYearTest {
 //		List<personYearInfo> list = projectPerYearDAO.selectTop5ConsumedByProductID(6, 2015);
 //		for(personYearInfo p : list)
 //			System.out.println(p.getAccount()+p.getConsume());
-		String name = projectPerYearDAO.selectTasknameByConsume("zhang.tao", 2015, 100.0);
+		String name = projectPerYearDAO.selectTasknameByConsume("", 2015, 100.0);
 		System.out.println(name);
 	}
 
