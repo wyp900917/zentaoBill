@@ -1,9 +1,6 @@
 package com.test;
 
-import java.util.List;
-
 import com.dao.projectPerYearDAO;
-import com.model.personYearInfo;
 
 public class projectPerYearTest {
 
