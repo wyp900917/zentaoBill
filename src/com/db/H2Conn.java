@@ -34,10 +34,10 @@ public class H2Conn {
 		if (null == conn) {
 			try {
 				Class.forName(DRIVER_CLASS);
-//				conn = DriverManager.getConnection(JDBC_URL + "E:\\workspace\\zentaoBill\\"
-//						+ db_local, USER, PASSWORD);
-				conn = DriverManager.getConnection(JDBC_URL + "/home/tsaip"
+				conn = DriverManager.getConnection(JDBC_URL + "C:\\workspace\\zentaoBill\\"
 						+ db_local, USER, PASSWORD);
+//				conn = DriverManager.getConnection(JDBC_URL + "/home/tsaip"
+//						+ db_local, USER, PASSWORD);
 			} catch (ClassNotFoundException e) {
 				System.out.println("数据库驱动加载失败！");
 				e.printStackTrace();
